@@ -1,0 +1,11 @@
+[remote]
+REMORT_SERVER_HOSTNAME
+
+[remote:vars]
+ansible_host=REMOTE_HOST_IP
+ansible_ssh_private_key_file=PRIVATE_KEY_FILE_FOR_REMOTE_HOST
+ansible_user=REMOTE_USER
+
+
+
+
